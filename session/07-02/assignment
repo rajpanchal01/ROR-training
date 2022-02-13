@@ -1,0 +1,18 @@
+1.why multiple inheritance is not supported in ruby?
+Multiple inheritance is a feature that allows one class to inherit from multiple classes(i.e., more than one parent). Ruby does not support multiple inheritance. It only supports single-inheritance (i.e. class can have only one parent), but you can use composition to build more complex classes using Modules.Ruby is the ideal object-oriented language. In an object-oriented programming language, inheritance is one of the most important features. Inheritance allows the programmer to inherit the characteristics of one class into another class. Ruby supports only single class inheritance, it does not support multiple class inheritance but it supports mixins. The mixins are designed to implement multiple inheritances in Ruby, but it only inherits the interface part. 
+
+
+2.difference between class and modules.
+Modules are collections of methods and constants. They cannot generate instances. Classes may generate instances (objects), and have per-instance state (instance variables).
+Modules may be mixed in to classes and other modules. The mixed in module’s constants and methods blend into that class’s own, augmenting the class’s functionality. Classes, however, cannot be mixed in to anything.
+A class may inherit from another class, but not from a module.
+A module may not inherit from anything.
+
+3.characteristics of modules.
+You cannot inherit modules or you can’t create a subclass of a module.
+Objects cannot be created from a module.
+Modules are used as namespaces and as mixins.
+All the classes are modules, but all the modules are not classes.
+The class can use namespaces, but they cannot use mixins like modules.
+The name of a module must start with a capital letter.
+
