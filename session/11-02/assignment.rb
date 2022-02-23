@@ -29,4 +29,11 @@ irb(main):003:0> a.collect{|num| num<4}
 => [true, true, true, false, false, false, false]
 irb(main):004:0> 
 
+#3.2)Difference between Loops and Iterators:
+
+#The difference is quite subtle indeed. Both loops and iterators are used to repeat a chunk of code. Loops are an ancient idea, they existed long before computers did. Almost every programming language has some kind of loops. Iterators are relatively new, and they only exist in a few languages such as Ruby.
+
+#Loops are both powerful and dangerous: it’s too easy to break your program by producing a so called infinite loop, if you fail to ensure that the termination condition (the one that must be true so the loop stops) really occurs.
+
+
 
