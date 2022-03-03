@@ -1,5 +1,6 @@
 #Exercise 1
 #Write a function to find the longest common prefix string amongst an array of strings.
+
 def function(a)
    l=a.length
    if l==0
@@ -19,6 +20,7 @@ def function(a)
         result
    end
 end
+
 string = ["challenge","characteristic","champion"] 
 function(string)
 irb(main):021:0> function(string)

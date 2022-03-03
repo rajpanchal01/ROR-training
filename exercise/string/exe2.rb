@@ -8,6 +8,7 @@ end
 sentence = "       This   is   my  ruby string     practical  assignment   "
 
 function(sentence)
+
 irb(main):039:0> function(sentence)
 => 10
 

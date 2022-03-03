@@ -20,6 +20,7 @@ def function(s)
    result
 end
     
+    
 irb(main):025:0> string = "communication"
 irb(main):026:0> function(string)
 => "comminacituon"
