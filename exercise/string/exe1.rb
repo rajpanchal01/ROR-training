@@ -8,11 +8,11 @@ def function(a)
    elsif l == 1
         a[0]
    else
-        a.sort()
+        b=a.sort()
         result = ""
-        for i in (0...a[0].length)
-           if a[0][i] == a[-1][i]
-               result += a[0][i]
+        for i in (0...b[0].length)
+           if b[0][i] == b[-1][i]
+               result += b[0][i]
            else
                break
            end
@@ -25,4 +25,9 @@ string = ["challenge","characteristic","champion"]
 function(string)
 irb(main):021:0> function(string)
 => "cha"
+irb(main):023:0> s
+=> ["aaa", "aa", "aaa"]
+irb(main):043:0> function(s)
+=> "aa"
+
 
