@@ -1,0 +1,9 @@
+1. What is the difference between find() and find_by()?
+
+The difference is what they return when a record is not found.
+
+find_by() returns nil while find() returns ActiveRecord::RecordNotFound exception.
+
+The additional difference between find() and find_by() is that find could only be used to search by primary key (usually the ‘id’) while the find_by() requires and searches by attribute (either passed as hash like Employee.find_by(name: ‘Mike’) or using the Employee.find_by_name(‘Mike’) method).
+
+
